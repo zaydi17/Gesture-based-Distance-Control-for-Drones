@@ -1,11 +1,7 @@
 import threading
-import imutils
 import numpy as np
 import cv2
 
-
-
-from imutils.object_detection import non_max_suppression
 
 import mxnet as mx
 import gluoncv as gcv
