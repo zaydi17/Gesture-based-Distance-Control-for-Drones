@@ -347,7 +347,7 @@ class MainClass(threading.Thread):
                 if str(key) == "t":
                     win.clear()
                     win.addstr("takeoff")
-                    # assert self.drone(TakeOff()).wait().success()
+                    assert self.drone(TakeOff()).wait().success()
                     win.addstr("completed")
                 # land
                 if str(key) == "l":
